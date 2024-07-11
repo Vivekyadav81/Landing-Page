@@ -1,0 +1,132 @@
+.all{
+   
+
+
+width: 100%;
+height: 500px;
+box-sizing: border-box;
+
+
+}
+.background{
+    width: 100%;
+    box-sizing:content-box;
+    height: 100%;
+}
+.hello{
+    display: flex;
+    justify-content: space-around;
+   font-family: italic;
+   font-weight: bold;
+   transition: 0.5s all ease-in-out;
+}
+
+.text{
+    position: absolute;
+   bottom: 15%;
+   
+   color: black;
+   font-family: italic;
+}
+.images{
+    display: flex;
+}
+.vivek{
+    width: 300px;
+    height: 200px;
+    
+}
+.amit{
+    width: 300px;
+    height: 200px;
+    opacity: 0.9;
+
+}
+
+
+.gupta{
+    height: 400px;
+    width: 100%;
+    opacity: 0.9;
+}
+.yadav{
+    height: 400px;
+    width: 100%;
+    opacity: 0.9;
+}
+.write{
+    position: absolute;
+    bottom: 15%;
+   
+    font-family: italic;
+    color: black;
+    font-weight: bolder;
+    
+    
+}
+.lekh{
+    position: absolute;
+
+    font-weight: bolder;
+    color: black;
+    font-family: italic;
+}
+.in{
+    position: absolute;
+    top: 110%;
+    color: black;
+    font-family: italic;
+    font-weight: bolder;
+}
+.hello{
+    background-color: rgb(247, 209, 160);
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:900px) {
+    .images{
+        flex-direction: column;
+    }
+  .vivek{
+    width: 100%;
+  }
+  .amit{
+    width: 100%;
+  }
+ 
+    .hello{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .write{
+        top: 45%;
+    }
+    .text{
+        top: 55%;
+    }
+    .in{
+        display: none;
+    }
+.background{
+    opacity: 0.9;
+}
+}
+
+
+
+
+
+
+
+
+
+
